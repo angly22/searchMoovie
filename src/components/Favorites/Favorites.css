@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;900&display=swap');
+
+.cnt {
+    padding-top: 10px;
+}
+
+.h2 {
+    position: absolute;
+    left:50%;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+        margin-left: -300px; 
+    animation-duration: 2s;
+    animation-name: h2;
+    color:rgb(241, 53, 20)
+}
+
+ul {
+  list-style-type: none;
+  width: 425px;
+  height: 400px;
+  margin: 850px;
+  margin-top: 100px;
+}
+
+.li:hover{
+  font-family: "Noto Sans", sans-serif;
+  width: 400px;
+  border: 1px;
+  padding-bottom: 6px;
+  color: rgb(240, 111, 6);
+}
+
+.icono{
+    color: red;
+    width: 10px;
+}

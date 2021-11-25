@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap");
+
+.cnt {
+  padding-top: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: absolute;
+  left: 20%;
+  bottom: 150px;
+}
+
+.form-container button {
+  margin-left: 20px;
+}
+.label {
+  position: absolute;
+  font-family: "Noto Sans", sans-serif;
+  color: rgb(58, 40, 58);
+  font-size: 50px;
+  bottom: 50px;
+  width: 500px;
+  margin-left: 25px;
+}
+.p {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  color: rgb(58, 40, 58);
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.div {
+  position: absolute;
+  height: 385px;
+  width: 220px;
+  margin-left: 20px;
+  margin-right: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: whitesmoke;
+  top: 190px;
+}
+.input {
+  border-radius: 30px;
+  width: 180px;
+  position: absolute;
+  left: 150px;
+}
+
+.button {
+  background-color: tomato;
+  color: whitesmoke;
+  border-color: tomato;
+  position: absolute;
+  top: 35px;
+  left: 200px;
+  font-family: "Noto Sans", sans-serif;
+}
+.button:hover {
+  background-color: coral;
+  border-color: coral;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  width: 425px;
+  height: 400px;
+  margin: 850px;
+  margin-top: 100px;
+}
+
+.li:hover{
+  font-family: "Noto Sans", sans-serif;
+  width: 400px;
+  border: 1px;
+  padding-bottom: 6px;
+  color: rgb(240, 111, 6);
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: rgb(85, 53, 126);
+}
+.divUl {
+  width: 425px;
+  height: 600px;
+  border-color: rgb(58, 40, 58);
+}
+.icon{
+  color: rgb(219, 1, 1);
+  width: 10px;
+}

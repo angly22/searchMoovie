@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;900&display=swap');
+.navbar {
+    margin-top: 0px;
+    height: 150px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8015581232492998) 30%, rgb(141, 140, 137) 100%);    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.navbar nav {
+    height: 100%;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+}
+
+.list-item {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+}
+
+.list-item a {
+    color: white;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+}
+
+.list-item a:hover,
+.list-item a.active {
+    
+    color: white;
+}
+
+.logo{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: -30px;
+    top: -60px;
+}
+.nombre{
+    position: absolute;
+    left:50%;
+    font-size: 60px;
+    font-family: 'Inconsolata', monospace;
+        margin-left: -300px; 
+    animation-duration: 2s;
+    animation-name: nombre;
+    color:rgb(241, 53, 20)
+ 
+}
+@keyframes nombre {
+    from {
+      margin-left: 10%;
+      width: 400%;
+    }}
+
+    .logo2{
+        width: 270px;
+        height: 270px;
+        position: absolute;
+        left: 1100px;
+        top: -60px;
+    }
+/* .home{
+    
+} */
